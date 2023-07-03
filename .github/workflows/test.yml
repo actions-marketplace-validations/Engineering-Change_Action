@@ -11,7 +11,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: Engineering-Change/Action@v1.0.0
     
     - name: Test action
       id: test
