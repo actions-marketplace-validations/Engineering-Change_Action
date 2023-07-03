@@ -18,10 +18,17 @@ will guide you through the process from start to finish
 `npm install -g @vercel/ncc`
 
 `ncc build index.js -o dist`
+
 `touch index.js`
+
 `touch action.yml`
+
 `mkdir -p .github/workflows`
+
 `touch .github/workflows/test.yml` 
+
 `git add .`
+
 `git commit -m "Initial action setup"`
+
 `git push origin main`
