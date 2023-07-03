@@ -47,6 +47,22 @@ try {
 ```
 
 `touch action.yml`
+### copy paste this into your yaml file next
+```yaml
+name: 'Hello World'
+description: 'Greet someone and record the time'
+inputs:
+  who-to-greet:  # id of the input
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+outputs:
+  time:
+    description: 'The time you greeted someone'
+runs:
+  using: 'node12'
+  main: 'index.js'
+```
 
 `mkdir -p .github/workflows`
 
