@@ -21,13 +21,14 @@ git pull origin main
 npm init -y
 npm install @actions/core @actions/github
 npm install -g @vercel/ncc
-
-
-`ncc build index.js -o dist`
+```
+## Now, create your action's main script and your action's metadata file:
 
 `touch index.js`
+`touch action.yml`
 
 ### Copy paste this to create default index.js
+
 ```javascript
 const core = require('@actions/core');
 const github = require('@actions/github');
@@ -52,8 +53,8 @@ try {
 }
 ```
 
-`touch action.yml`
 ### Copy paste this into your action.yaml file next
+
 ```yaml
 name: 'YOUR NAME HERE'
 description: 'YOUR DESCRIPTION HERE'
