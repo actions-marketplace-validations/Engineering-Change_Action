@@ -1,23 +1,27 @@
 # Engineering-Change/Action@v1.0.0
 
-> Step one
+## Overview
 
-Create your repository as you normally would, add a readme and license (as needed).
+This guide walks you through the steps to create and deploy a GitHub action in your repository. Follow the instructions below in order.
 
-> Step two
+## Step 1: Create the Repository
 
-Open a codespace or download and git clone the repo to initialize using command line as I
-will guide you through the process from start to finish. lastly, Open a terminal window.
+Create your repository as you normally would. Add a `README.md` and a `LICENSE` file (if necessary).
 
-> Step three
+## Step 2: Initialize Your Repository
 
-`git pull origin main` 
+Once your repository is created, you need to initialize it. Open a codespace or clone the repo to your local system, and then open a terminal window.
 
-`npm init -y`
+## Step 3: Set Up Your Action
 
-`npm install @actions/core @actions/github`
+Pull the latest changes from your repository and set up your node environment.
 
-`npm install -g @vercel/ncc`
+```bash
+git pull origin main
+npm init -y
+npm install @actions/core @actions/github
+npm install -g @vercel/ncc
+
 
 `ncc build index.js -o dist`
 
