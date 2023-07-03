@@ -1,6 +1,6 @@
 # Engineering-Change/Action@v1.0.0
 
-![maxresdefault](https://github.com/Engineering-Change/Action/assets/31228460/9726366a-aed8-4022-a100-4522ebcb695b)
+<img src="https://github.com/Engineering-Change/Action/assets/31228460/9726366a-aed8-4022-a100-4522ebcb695b" width="700">
 
 ## Overview
 
