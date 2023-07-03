@@ -11,6 +11,8 @@ will guide you through the process from start to finish
 
 > Step three
 
+`git pull origin main`
+
 `npm init -y`
 
 `npm install @actions/core @actions/github`
