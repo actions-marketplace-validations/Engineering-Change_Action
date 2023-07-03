@@ -25,6 +25,7 @@ npm install -g @vercel/ncc
 ## Now, create your action's main script and your action's metadata file:
 
 `touch index.js`
+
 `touch action.yml`
 
 ### Copy paste this to create default index.js
