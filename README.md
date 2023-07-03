@@ -7,11 +7,11 @@ Create your repository as you normally would, add a readme and license (as neede
 > Step two
 
 Open a codespace or download and git clone the repo to initialize using command line as I
-will guide you through the process from start to finish
+will guide you through the process from start to finish. lastly, Open a terminal window.
 
 > Step three
 
-`git pull origin main`
+`git pull origin main` 
 
 `npm init -y`
 
@@ -107,6 +107,7 @@ jobs:
 > create your tag
 
 `git tag v1.0.0`
+
 `git push origin v1.0.0`
 
 > Step five
