@@ -32,3 +32,8 @@ will guide you through the process from start to finish
 `git commit -m "Initial action setup"`
 
 `git push origin main`
+
+> Step five
+
+If done correctly when you go to your repo, you should be able to go to action section 
+and see your own new GitHub action now running.
