@@ -108,6 +108,10 @@ jobs:
       run: echo "The time was ${{ steps.test.outputs.time }}"
 ```
 
+### next build your action and commit Initial setup
+
+`ncc build index.js -o dist`
+
 `git add .`
 
 `git commit -m "Initial action setup"`
