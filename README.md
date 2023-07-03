@@ -4,7 +4,8 @@
 
 ## Overview
 
-This guide walks you through the steps to create and deploy a GitHub action in your repository. Follow the instructions below in order.
+This guide walks you through the steps to create and deploy a GitHub action in your repository. 
+>Follow the instructions below in order.
 
 ## Step 1: Create the Repository
 
