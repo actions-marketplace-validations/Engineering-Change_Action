@@ -61,7 +61,7 @@ outputs:
     description: 'The time you greeted someone'
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'dist/index.js'
 ```
 
 `mkdir -p .github/workflows`
