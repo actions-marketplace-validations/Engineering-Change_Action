@@ -21,7 +21,7 @@ will guide you through the process from start to finish
 
 `touch index.js`
 
-# copy paste this to create default index.js
+### copy paste this to create default index.js
 ```javascript
 const core = require('@actions/core');
 const github = require('@actions/github');
