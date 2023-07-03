@@ -23,7 +23,7 @@ will guide you through the process from start to finish
 
 `touch index.js`
 
-### copy paste this to create default index.js
+### Copy paste this to create default index.js
 ```javascript
 const core = require('@actions/core');
 const github = require('@actions/github');
@@ -49,12 +49,12 @@ try {
 ```
 
 `touch action.yml`
-### copy paste this into your yaml file next
+### Copy paste this into your action.yaml file next
 ```yaml
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'YOUR NAME HERE'
+description: 'YOUR DESCRIPTION HERE'
 inputs:
-  who-to-greet:  # id of the input
+  who-to-greet:
     description: 'Who to greet'
     required: true
     default: 'World'
@@ -69,6 +69,34 @@ runs:
 `mkdir -p .github/workflows`
 
 `touch .github/workflows/test.yml` 
+
+### Copy this into your test.yml file
+
+```yaml
+name: Test Workflow
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: (REPO-OWNER-HERE)/(REPO-NAME)@v1.0.0
+    
+    - name: Test action
+      id: test
+      uses: (REPO-OWNER-HERE)/(REPO-NAME)@v1.0.0
+      with:
+        who-to-greet: 'Mona the Octocat'
+
+    - name: Get the output
+      run: echo "The time was ${{ steps.test.outputs.time }}"
+```
 
 `git add .`
 
