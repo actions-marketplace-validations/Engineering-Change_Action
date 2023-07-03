@@ -26,7 +26,7 @@ npm init -y
 npm install @actions/core @actions/github
 npm install -g @vercel/ncc
 ```
-## Now, create your action's main script and your action's metadata file:
+## Step4: Create your action's main script and your action's metadata file:
 
 `touch index.js`
 
@@ -108,7 +108,7 @@ jobs:
       run: echo "The time was ${{ steps.test.outputs.time }}"
 ```
 
-### next build your action and commit Initial setup
+## Step 5: Next build your action and commit Initial setup
 
 `ncc build index.js -o dist`
 
@@ -124,7 +124,7 @@ jobs:
 
 `git push origin v1.0.0`
 
-> Step five
+## Step 6: Go to local repo and verify 
 
-If done correctly when you go to your repo, you should be able to go to action section 
-and see your own new GitHub action now running.
+>If done correctly when you go to your repo, you should be able to go to action section 
+>and see your own new GitHub action now running.
