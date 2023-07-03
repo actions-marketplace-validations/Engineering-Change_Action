@@ -12,8 +12,11 @@ will guide you through the process from start to finish
 > Step three
 
 `npm init -y`
+
 `npm install @actions/core @actions/github`
+
 `npm install -g @vercel/ncc`
+
 `ncc build index.js -o dist`
 `touch index.js`
 `touch action.yml`
