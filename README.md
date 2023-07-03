@@ -76,6 +76,11 @@ runs:
 
 `git push origin main`
 
+> create your tag
+
+`git tag v1.0.0`
+`git push origin v1.0.0`
+
 > Step five
 
 If done correctly when you go to your repo, you should be able to go to action section 
