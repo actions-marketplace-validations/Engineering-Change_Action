@@ -76,6 +76,8 @@ runs:
   main: 'dist/index.js'
 ```
 
+## Step 5: Create a .github directory to store your action file.
+
 `mkdir -p .github/workflows`
 
 `touch .github/workflows/test.yml` 
@@ -108,7 +110,7 @@ jobs:
       run: echo "The time was ${{ steps.test.outputs.time }}"
 ```
 
-## Step 5: Next build your action and commit Initial setup
+## Step 6: Next build your action and commit Initial setup
 
 `ncc build index.js -o dist`
 
@@ -124,7 +126,7 @@ jobs:
 
 `git push origin v1.0.0`
 
-## Step 6: Go to local repo and verify 
+## Step 7: Go to local repo and verify 
 
 >If done correctly when you go to your repo, you should be able to go to action section 
 >and see your own new GitHub action now running.
