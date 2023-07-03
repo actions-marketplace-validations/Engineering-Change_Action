@@ -1,6 +1,6 @@
 # Engineering-Change/Action@v1.0.0
 
-![vmeforsb7sbldnxw0v58](https://github.com/Engineering-Change/Action/assets/31228460/0e944187-9ad5-4d3c-8156-29f113cd3f65)
+<img src="https://github.com/Engineering-Change/Action/assets/31228460/0e944187-9ad5-4d3c-8156-29f113cd3f65" width="500">
 
 ## Overview
 
