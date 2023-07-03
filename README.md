@@ -1,5 +1,7 @@
 # Engineering-Change/Action@v1.0.0
 
+![vmeforsb7sbldnxw0v58](https://github.com/Engineering-Change/Action/assets/31228460/0e944187-9ad5-4d3c-8156-29f113cd3f65)
+
 ## Overview
 
 This guide walks you through the steps to create and deploy a GitHub action in your repository. Follow the instructions below in order.
