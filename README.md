@@ -120,15 +120,15 @@ jobs:
 
 `git push origin main`
 
-> create your tag
+## Step 7: Create your tag, and push it to main branch
 
 `git tag v1.0.0`
 
 `git push origin v1.0.0`
 
-## Step 7: Go to local repo and verify 
+## Step 8: Go to local repo and verify 
 
 >If done correctly when you go to your repo, you should be able to go to action section 
 >and see your own new GitHub action now running.
 
-Created by a CSUF student, for students ⟨™⟩
+Created by a CSUF student, for students @2023 [Jermyiah](https://github.com/jge162)
