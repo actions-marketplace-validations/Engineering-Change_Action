@@ -130,3 +130,5 @@ jobs:
 
 >If done correctly when you go to your repo, you should be able to go to action section 
 >and see your own new GitHub action now running.
+
+Created by a CSUF student, for students ⟨™⟩
