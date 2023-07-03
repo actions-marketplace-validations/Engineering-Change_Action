@@ -13,7 +13,8 @@ Create your repository as you normally would. Add a `README.md` and a `LICENSE` 
 
 ## Step 2: Initialize Your Repository
 
-Once your repository is created, you need to initialize it. Open a codespace or clone the repo to your local system, and then open a terminal window.
+Once your repository is created, you need to initialize it.
+>Open a codespace or clone the repo to your local system, and then open a terminal window.
 
 ## Step 3: Set Up Your Action
 
